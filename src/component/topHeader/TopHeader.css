@@ -1,25 +1,32 @@
-.Top-header {
+
+.Top-header .Top-header-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 20px;
+    padding: 10px 30px;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
 }
 
-.Top-header .top-header-right {
+.top-header-left {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 40px;
 }
 
-.Top-header .top-header-right .icon-container {
+.top-header-left .icon-container {
     position: relative;
-    color: rgb(114, 111, 111);
-    margin: 10px;
 }
-.Top-header .top-header-right .icon-container .icon-badge {
+.top-header-left .icon-container i{
+    color: rgb(89, 96, 110);
+    padding: 10px;
+}
+.top-header-left .icon-container .icon-badge {
     position: absolute;
-    top: -10px;
-    right: -5px;
+    top: -6px;
+    right: 6px;
     font-size: 15px;
     background-color: red;
     color: white;
@@ -35,6 +42,6 @@
     object-fit: cover;
     margin-right: 10px;
 }
-.top-header-left .text-logo {
+.top-header-right .text-logo {
     color: rgb(41, 41, 158);
 }

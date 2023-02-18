@@ -1,5 +1,6 @@
 import { useRoutes } from 'react-router-dom';
 import './App.css';
+import SideBar from './component/sideBar/SideBar';
 import TopHeader from './component/topHeader/TopHeader';
 import Routes from './routes';
 
@@ -9,7 +10,12 @@ function App() {
   return (
   <>
   <TopHeader />
-  {router}
+
+  <div className='container'>
+     <SideBar />
+     {router}
+  </div>
+ 
   </>
   );
 }
