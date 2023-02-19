@@ -9,6 +9,7 @@ import ReportIcon from '@mui/icons-material/Report';
 import EmailIcon from '@mui/icons-material/Email';
 import CommentIcon from '@mui/icons-material/Comment';
 import './SideBar.css';
+import { Link } from 'react-router-dom';
 function SideBar() {
     return (
         <div className="sidebar">
@@ -16,58 +17,82 @@ function SideBar() {
                 <div className='sidebar-menu'>
                     <h3>داشبورد</h3>
                     <ul>
-                        <li className='active'>
-                            <i><HomeIcon /></i>
-                            <span>خانه</span>
-                        </li>
-                        <li>
-                            <i><EqualizerIcon /></i>
-                            <span>آنالیز</span>
-                        </li>
-                        <li>
-                            <i><ShowChartIcon /></i>
-                            <span>فروش</span>
-                        </li>
+                        <Link to='/' className='link'>
+                            <li className='active'>
+                                <i><HomeIcon /></i>
+                                <span>خانه</span>
+                            </li>
+                        </Link>
+                        <Link className='link'>
+                            <li>
+                                <i><EqualizerIcon /></i>
+                                <span>آنالیز</span>
+                            </li>
+                        </Link>
+                        <Link className='link'>
+                            <li>
+                                <i><ShowChartIcon /></i>
+                                <span>فروش</span>
+                            </li>
+                        </Link>
+
                     </ul>
                 </div>
 
                 <div className='sidebar-menu'>
                     <h3>لیست</h3>
                     <ul>
-                        <li>
-                            <i><PersonIcon /></i>
-                            <span>کاربر</span>
-                        </li>
-                        <li>
-                            <i><PersonAddIcon /></i>
-                            <span>کاربر جدید</span>
-                        </li>
-                        <li>
-                            <i><ProductionQuantityLimitsIcon /></i>
-                            <span>محصولات</span>
-                        </li>
-                        <li>
-                            <i><PaidIcon /></i>
-                            <span>تراکنش ها</span>
-                        </li>
-                        <li>
-                            <i><ReportIcon /></i>
-                            <span>گزارش</span>
-                        </li>
+                        <Link to='/users' className='link'>
+                            <li>
+                                <i><PersonIcon /></i>
+                                <span>کاربر</span>
+                            </li>
+                        </Link>
+                        <Link to='/newUser' className='link'>
+                            <li>
+                                <i><PersonAddIcon /></i>
+                                <span>کاربر جدید</span>
+                            </li>
+                        </Link>
+                        <Link className='link'>
+                            <li>
+                                <i><ProductionQuantityLimitsIcon /></i>
+                                <span>محصولات</span>
+                            </li>
+                        </Link>
+
+                        <Link className='link'>
+                            <li>
+                                <i><PaidIcon /></i>
+                                <span>تراکنش ها</span>
+                            </li>
+                        </Link>
+                        <Link className='link'>
+                            <li>
+                                <i><ReportIcon /></i>
+                                <span>گزارش</span>
+                            </li>
+                        </Link>
+
                     </ul>
                 </div>
 
                 <div className='sidebar-menu'>
                     <h3>اعلانات</h3>
                     <ul>
-                        <li>
-                            <i><EmailIcon /></i>
-                            <span>ایمیل</span>
-                        </li>
-                        <li>
-                            <i><CommentIcon /></i>
-                            <span>نظرات</span>
-                        </li>
+                        <Link className='link'>
+                            <li>
+                                <i><EmailIcon /></i>
+                                <span>ایمیل</span>
+                            </li>
+                        </Link>
+                        <Link className='link'>
+                            <li>
+                                <i><CommentIcon /></i>
+                                <span>نظرات</span>
+                            </li>
+                        </Link>
+
                     </ul>
                 </div>
             </div>

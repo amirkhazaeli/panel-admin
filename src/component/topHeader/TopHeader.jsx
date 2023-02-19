@@ -8,7 +8,7 @@ function TopHeader() {
             <div className="Top-header-wrapper">
                 <div className="top-header-right">
                     <h1 className='text-logo'>
-                        برند لوگو ❤
+                     سبز لرن ❤
                     </h1>
                 </div>
 

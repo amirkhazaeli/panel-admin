@@ -1,6 +1,11 @@
+import Featurs from "../../component/features/Featurs";
+
 function Home() {
-    return ( <>
-    </> );
+    return ( 
+    <>
+    <Featurs />
+    </> 
+    );
 }
 
 export default Home;
