@@ -45,7 +45,7 @@ function SideBar() {
                         <Link to='/users' className='link'>
                             <li>
                                 <i><PersonIcon /></i>
-                                <span>کاربر</span>
+                                <span>کاربرها</span>
                             </li>
                         </Link>
                         <Link to='/newUser' className='link'>

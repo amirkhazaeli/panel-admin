@@ -10,7 +10,6 @@ function App() {
   return (
   <>
   <TopHeader />
-
   <div className='container'>
      <SideBar />
      {router}
