@@ -1,0 +1,36 @@
+.widgetSm {
+    flex: 1;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.widgetWrapper {
+    padding: 30px;
+}
+
+.widgetItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.widgetItem img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.userInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.userName{
+    font-weight: 600;
+}
+.userJob{
+    color: rgb(160, 159, 158);
+}
+.widgeticon{
+    color: rgb(160, 159, 158);
+}

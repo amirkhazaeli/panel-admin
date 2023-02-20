@@ -10,12 +10,14 @@ function Featurs() {
                         <h3>Revanue</h3>
                     </div>
                     <div className='featurs-range'>
+                        <span className='featurs-price'>$2,415</span>
                         <div className='featurs-info'>
-                            <i><ArrowDownwardIcon className="featurs-icon-down"/></i>
-                            <span>11.4-</span>
+                            <span>-11.4</span>
+                            <i><ArrowDownwardIcon className="featurs-icon-down" /></i>
+
 
                         </div>
-                        <span className='featurs-price'>$2,415</span>
+
 
                     </div>
                     <span className='featurs-sub'>compread to last month</span>
@@ -29,12 +31,14 @@ function Featurs() {
                         <h3>Sales</h3>
                     </div>
                     <div className='featurs-range'>
+                        <span className='featurs-price'>$2,415</span>
+
                         <div className='featurs-info'>
-                            <i><ArrowDownwardIcon className="featurs-icon-down"/></i>
-                            <span>1.4-</span>
+                            <span>-1.4</span>
+                            <i><ArrowDownwardIcon className="featurs-icon-down" /></i>
+
 
                         </div>
-                        <span className='featurs-price'>$2,415</span>
 
                     </div>
                     <span className='featurs-sub'>compread to last month</span>
@@ -48,12 +52,14 @@ function Featurs() {
                         <h3>Cost</h3>
                     </div>
                     <div className='featurs-range'>
+                        <span className='featurs-price'>$2,415</span>
                         <div className='featurs-info'>
-                            <i><ArrowUpwardIcon  className="featurs-icon-up"/></i>
-                            <span>2.4+</span>
+                            <span>+2.4</span>
+                            <i><ArrowUpwardIcon className="featurs-icon-up" /></i>
+
 
                         </div>
-                        <span className='featurs-price'>$2,415</span>
+
 
                     </div>
                     <span className='featurs-sub'>compread to last month</span>

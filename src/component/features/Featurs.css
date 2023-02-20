@@ -1,16 +1,15 @@
 .featurs{
-    margin-top: 10px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     column-gap: 40px;
 }
 .featurs-wrapper{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
 }
 .featurs-container{
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
   margin: 15px 30px;
 }
 .featurs-range{
@@ -25,7 +24,6 @@
 }
 .featurs-info{
     display: flex;
-    align-items: center;
 }
 .featurs-icon-up{
     color: green;

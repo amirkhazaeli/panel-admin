@@ -1,0 +1,63 @@
+.widgetLg {
+    flex: 2;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-left: 20px;
+}
+
+.widgetLgWrapper {
+    padding: 30px;
+}
+
+.widgetLgTable {
+    padding-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.widgetLgth {
+    text-align: left;
+    padding-left: 30px;
+}
+
+.widgetuser {
+    display: flex;
+    align-items: center;
+}
+
+.widgetLgtd {
+    padding: 10px 0px;
+}
+
+.widgetuser img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.widgetLgButtonApproved {
+    background-color: rgb(91, 253, 91) ;
+    font-weight: 600;
+    border: none;
+    width: 90px;
+    height: 40px;
+    border-radius: 10%;
+}
+
+.widgetLgButtonDeclined {
+    background-color: rgb(235, 68, 68);
+    font-weight: 600;
+    border: none;
+    width: 90px;
+    height: 40px;
+    border-radius: 10%;
+}
+
+.widgetLgButtonpending {
+    background-color: rgb(198, 111, 255);
+    font-weight: 600;
+    border: none;
+    width: 90px;
+    height: 40px;
+    border-radius: 10%;
+}
