@@ -42,6 +42,7 @@
     width: 90px;
     height: 40px;
     border-radius: 10%;
+    color: white;
 }
 
 .widgetLgButtonDeclined {
@@ -51,6 +52,7 @@
     width: 90px;
     height: 40px;
     border-radius: 10%;
+    color: white;
 }
 
 .widgetLgButtonpending {
@@ -60,4 +62,5 @@
     width: 90px;
     height: 40px;
     border-radius: 10%;
+    color: white;
 }

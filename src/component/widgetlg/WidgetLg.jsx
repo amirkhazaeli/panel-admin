@@ -1,7 +1,8 @@
 import './WidgetLg.css'
 import { TransActions } from '../../data';
+import Fade from 'react-reveal/Fade';
 function WidgetLg() {
-
+    let num= 0;
     const Button = ({ type }) => {
         return <button className={'widgetLgButton' + type}>{type}</button>
     }
@@ -17,23 +18,31 @@ function WidgetLg() {
                         <th className="widgetLgth">Status</th>
                     </tr>
                     {
-                        TransActions.map((transAction) => (
-                            <tr className="widgetLgtr" key={transAction.id}>
-                                <td className="widgetuser widgetLgtd">
-                                    <img src='images/top-image.jpg' alt="" />
-                                    <span>{transAction.name}</span>
-                                </td>
-                                <td className="widgetLgtd">
-                                    {TransActions.date}
-                                </td>
-                                <td className="widgetLgtd">
-                                    {transAction.amount}
-                                </td>
-                                <td className="widgetLgtd">
-                                    <Button type={transAction.status}></Button>
-                                </td>
-                            </tr>
-                        ))
+                        TransActions.map((transAction) => {
+                          num= num + 1;
+                          return  (
+                                <Fade bottom delay={num * 500}>
+                                    <tr className="widgetLgtr" key={transAction.id}>
+                                        <td className="widgetuser widgetLgtd">
+                                            <img src='images/top-image.jpg' alt="" />
+                                            <span>{transAction.name}</span>
+                                        </td>
+                                        <td className="widgetLgtd">
+                                            {TransActions.date}
+                                        </td>
+                                        <td className="widgetLgtd">
+                                            {transAction.amount}
+                                        </td>
+                                        <td className="widgetLgtd">
+                                            <Button type={transAction.status}></Button>
+                                        </td>
+                                    </tr>
+                                </Fade>
+                            )
+                        }
+                      )
+                        
+                       
                     }
                 </table>
             </div>

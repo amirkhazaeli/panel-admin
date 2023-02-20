@@ -83,29 +83,61 @@ let TransActions = [
         'name': "Amir Khazaeli",
         'date': 2023,
         'amount': 14.000,
-        'status' : 'Approved'
+        'status': 'Approved'
     },
     {
-        'id': 1,
+        'id': 2,
         'name': "Ali Karimi",
         'date': 2023,
         'amount': 13.000,
-        'status' : 'pending'
+        'status': 'pending'
     },
     {
-        'id': 1,
+        'id': 3,
         'name': "Abbas Alavi",
         'date': 2019,
         'amount': 22.000,
-        'status' : 'Declined'
+        'status': 'Declined'
     },
     {
-        'id': 1,
+        'id': 4,
         'name': "akram sabazade",
         'date': 2022,
         'amount': 16.000,
-        'status' : 'pending'
+        'status': 'pending'
     }
 ]
 
-export { xAxisData, NewJoinMember,TransActions };
+let Rows = [
+    {
+        id: 1,
+        name: 'Amir Khazaeli',
+        image: 'images/top-image.jpg',
+        age: 35,
+        status: 'non-active',
+    },
+    {
+        id: 2,
+        name: 'Ahmad Mohammadi',
+        image: 'images/top-image.jpg',
+        age: 25,
+        status: 'active',
+    },
+    {
+        id: 3,
+        name: 'Amir Amiri',
+        image: 'images/top-image.jpg',
+        age: 32,
+        status: 'non-active',
+    },
+    {
+        id: 4,
+        name: 'Ali Alavi',
+        image: 'images/top-image.jpg',
+        age: 39,
+        status: 'active',
+    },
+
+]
+
+export { xAxisData, NewJoinMember, TransActions , Rows };
